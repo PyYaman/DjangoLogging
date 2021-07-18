@@ -13,7 +13,7 @@ from rest_framework.views import APIView
 
 class StudentView(APIView):
     """
-    The purpose of this view is to get all data of student
+    The purpose of this view is to get all data of student.
     """
     def get(self, request):
         logger_user_id = request.META['REMOTE_ADDR']
